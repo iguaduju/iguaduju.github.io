@@ -7,10 +7,15 @@
 <meta name="keywords" content="Baek, Game">
 
 <link href="include/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="include/flash_detect.js"></script>
 
 <!-- :: ¿ìÃø¿¡ µû¶ó ´Ù´Ï´Â ½ºÅ©·Ñ ¹è³Ê ±¸Çö  -->
 <script language=javascript> 
-
+  if(!FlashDetect.installed){
+    alert("Flash is required to enjoy this site.");       
+  }else{
+    alert("Flash is insalled on your Web browser.");
+  }
 </script>
 
 </head>
@@ -20,7 +25,7 @@
     <tr>
       <td class="frameTable"><table border="0" cellpadding="0" cellspacing="0" class="mainTable">
 	    <tr>
-          <td><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="900" height="130">
+          <td id="swflash"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="900" height="130">
             <param name="movie" value="flash/intro_home.swf">
             <param name="quality" value="high">
             <embed src="flash/intro_home.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="900" height="130"></embed>
