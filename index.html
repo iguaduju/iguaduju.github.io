@@ -7,15 +7,18 @@
 <meta name="keywords" content="Baek, Game">
 
 <link href="include/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="include/jquery.min-2.1.1.js"></script>
 <script type="text/javascript" src="include/flash_detect.js"></script>
 
 <!-- :: ¿ìÃø¿¡ µû¶ó ´Ù´Ï´Â ½ºÅ©·Ñ ¹è³Ê ±¸Çö  -->
 <script language=javascript> 
-  if(!FlashDetect.installed){
-    alert("Flash is required to enjoy this site.");       
-  }else{
-    alert("Flash is insalled on your Web browser.");
-  }
+  $(document).ready(function(){
+    if(!FlashDetect.installed){
+      $('#frameSwf').html('<img src="image/image_home.jpg" alt="Examples Graphic" width="900" height="130" />');
+    }else{      
+      $('#frameSwf').html('<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="900" height="130"><param name="movie" value="flash/intro_home.swf"><param name="quality" value="high"><embed src="flash/intro_home.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="900" height="130"></embed></object>');
+    }
+  });  
 </script>
 
 </head>
@@ -25,11 +28,8 @@
     <tr>
       <td class="frameTable"><table border="0" cellpadding="0" cellspacing="0" class="mainTable">
 	    <tr>
-          <td id="swflash"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="900" height="130">
-            <param name="movie" value="flash/intro_home.swf">
-            <param name="quality" value="high">
-            <embed src="flash/intro_home.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="900" height="130"></embed>
-          </object></td>
+          <td id="frameSwf">
+          </td>
         </tr>
 	     <tr>
             <td align="center"><table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -60,7 +60,7 @@
                   <td colspan="3"><img src="image/header_aboutgame.jpg" alt="about this web site" width="123" height="35" />
                     <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#CCCCCC">
                       <tr>
-                        <td><img src="images/t.gif" alt="" width="1" height="1" /></td>
+                        <td><img src="image/t.gif" alt="" width="1" height="1" /></td>
                       </tr>
                   </table></td></tr>    			 
                 <tr>
