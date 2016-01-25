@@ -15,17 +15,17 @@
 .style1 {color: #999999}
 -->
 </style>
-
-<!-- :: 우측에 따라 다니는 스크롤 배너 구현  -->
+<script type="text/javascript">
+  $(document).ready(function() {
+    $("a.thumbnail").fancybox();
+  });    
+</script>
 <script language=javascript> 
-<!--
+
 function floatBanner(){
-
     var rtop=document.body.scrollTop+50; //배너 TOP 위치
-
     float_banner.style.top=rtop;
 }
-//-->
 </script>
 </head>
 
@@ -408,9 +408,4 @@ function floatBanner(){
     <br />
   </div>
 </body>
-<script type="text/javascript">
-$(document).ready(function() {
-  $("a.thumbnail").fancybox();
-});    
-</script>
 </html>
