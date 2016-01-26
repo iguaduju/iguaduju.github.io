@@ -1,0 +1,31 @@
+Youngil Baek
+bamboo10001@gmail.com   ~   (010) 0000-0000   ~   http://iguaduju.github.com 
+
+Profile
+•	More than 7 years of programming and software development experience
+•	Excel in working in both a team environment and as an independent worker
+•	Written / spoken languages: English, Korean
+
+Technical Skills
+•	Extensive programming expertise in C, C++, Java, JavaScript, HTML, CSS, Python
+•	Extensive Platform knowledge including Android, .Net Compact Framework, Angular.js, Ogre3d
+•	Intermediate Swift, iOS knowledge
+•	6 years of Samsung-TV/Phone and embedded Application solutions programming
+•	Extensive computer skills (including MS Office)
+
+Work Experience
+	Software Engineer	July 2008 - 
+	Opentide Korea, Seoul, Korea
+•	Created Samsung-TV Application such as content aggregator and TV app’s store
+•	Created Web Service named WyzMeeting for meeting reservation
+•	Developed Microsoft Office Outlook Add-in used to reserve meeting
+•	Developed Radio App with android running on Samsung-Phone
+
+Education
+	Degree in Programming	March 2002 - June 2008
+	Soongsil University, Seoul, Korea
+•	Learned C/C++, Java, data patterns and algorithms
+•	Developed various games with DirectX or Orge3d engine.
+•	Designed complex database systems and managing tools with C++ and C#
+•	Created web services with frontend applications
+•	Miscellaneous media experience including Computer Graphics, 3d Modeling, Animation
