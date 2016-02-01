@@ -39,4 +39,15 @@ body {
 	color: #A1A1A1;	
 	margin-bottom:5px;
 }
- 
+.menuStyle.selected{
+	font-family: Arial;
+	font-size: 22px;
+	color: #A1A1A1;
+}
+.menuStyle{
+	font-family: Arial;
+	font-size: 22px;
+	cursor: pointer;
+	margin-right: 10px;
+	margin-left: 10px;
+} 
